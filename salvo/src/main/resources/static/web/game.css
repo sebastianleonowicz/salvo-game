@@ -1,0 +1,48 @@
+/*
+.grid {
+    width: 1000px;
+    height: 1000px;
+}
+*/
+
+body {
+    position: relative;
+}
+
+#salvoes {
+    position: absolute;
+    position: absolute;
+    width: 898px;
+    top: 960px;
+}
+
+#demo {
+    width: 898px;
+    top: 960px;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    /*    justify-content: space-between;*/
+    flex-direction: row;
+}
+
+.flex-grid-thirds .col {
+    width: 7%;
+    background-color: aqua;
+    border-style: solid;
+    border-color: red;
+    height: 57px;
+    text-align: center;
+    /*    border-width: 2px;*/
+}
+
+.flex-grid-thirds .ship {
+    width: 7%;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    height: 57px;
+    text-align: center;
+    /*    border-width: 2px;*/
+}
